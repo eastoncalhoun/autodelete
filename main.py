@@ -3,7 +3,6 @@ from discord.ext import commands
 global channels
 
 prefix = "%"
-myToken = ""
 bot = commands.Bot(command_prefix=prefix)
 client = discord.Client()
 channels = []
